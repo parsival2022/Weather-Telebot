@@ -6,8 +6,7 @@ db = SqliteDatabase('bot_database.sqlite3')
 class User(Model):
     user_id = CharField()
     stage = CharField()
-
-
+    
     class Meta:
         database = db
 
